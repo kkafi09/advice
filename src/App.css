@@ -1,72 +1,74 @@
-*,#root, body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    height: 100%;
+*,
+#root,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 .app {
-    height: 100%;
-    background-size: cover;
-    background: url("./images/mount.jpg") no-repeat center;
-    display: flex;
-    justify-content: center;
+  height: 100%;
+  background-size: cover;
+  background: url("./images/mount.jpg") no-repeat center;
+  display: flex;
+  justify-content: center;
 }
 
-.card{
-    background-color:whitesmoke ;
-    width: 600px;
-    height: 300px;
-    border-radius: 2%;
-    margin-top: 200px;
-    padding: 40px 50px;
+.card {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 300px;
+  border-radius: 4%;
+  margin-top: 200px;
+  padding: 40px 50px;
 }
 
-.heading{
-    font-family: 'Spartan', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 18px;
+.heading {
+  font-family: "Spartan", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
 }
 
-.button{
-    position: relative;
-    outline: none;
-    text-decoration: none;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 50px;
-    max-width: 210px;
-    background-color: #fff;
-    border: 1px solid rgb(22,76,162);
-    margin: -2rem auto 0;
-    cursor: pointer;
+.button {
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  max-width: 210px;
+  background-color: #3e88ef;
+  margin: -2rem auto 0;
+  cursor: pointer;
+  color: whitesmoke;
 }
 
-span{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media (max-width: 760px) {
-    .card{
-        width: 80%;
-        height: 40%;
-        padding: 30px 40px;
-    }
+  .card {
+    width: 80%;
+    height: 40%;
+    padding: 30px 40px;
+  }
 
-    .button{
-        margin: -2.5rem auto 1rem;
-    }
+  .button {
+    margin: -2.5rem auto 1rem;
+  }
 
-    .heading{
-        font-size: 18px;
-    }
+  .heading {
+    font-size: 18px;
+  }
 }
